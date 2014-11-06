@@ -1,0 +1,2 @@
+sourceTaxonId	sourceTaxonName	interactionTypeId	interactionTypeName	targetTaxonId	targetTaxonName	decimalLatitude	decimalLongitude	observationDateTime	referenceDoi	referenceCitation
+EOL:327955	Homo sapiens	RO:0002470	eats	EOL:327977	Oryctolagus cuniculus	37.810227	-122.248361	1981-09-11T22:00:00Z	12j-123-j	Bunny Eaters, 2014
