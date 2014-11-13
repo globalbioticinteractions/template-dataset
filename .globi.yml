@@ -1,6 +1,0 @@
-# Sample .globi.yml for GloBI datasets
-#
-# See http://github.com/globalbioticinteractions for more information.
-
-citation: This is my preferred data citation
-format: globi-light
