@@ -1,11 +1,18 @@
 template-dataset
 ================
 
-Fork this repository and add your own data. 
+This repository provides an example on how to share your interaction data with http://globalbioticinteractions.org .
 
-To include your dataset into GloBI, make sure that you:
+If you want to share your own data through GloBI:
+1. Fork this repository.
+2. Edit your ```README.rd``` to describe your data in a human readable form.
+3. Ensure that your README.rd contains a reference to ```http://globalbioticinteractions.org```.
+4. Edit your ```globi.json``` to provide a machine readable description of your dataset (e.g. citation, license, version, files, format).
 
-1. mention http://globalbioticinteractions.org in your README.md . 
-2. include a ```.globi.yml``` file to store your dataset meta data (e.g. source citation, data format). 
+After you do this, the data will be available to those that use GloBI to discover species interaction data.
 
-Note: this is a proof of concept. 
+Note: this is a proof of concept.
+
+If you have any questions: please [open an issue](https://github.com/globalbioticinteractions/template-dataset/issues/new).
+
+
