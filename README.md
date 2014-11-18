@@ -27,7 +27,7 @@ term | example | description |
  interactionTypeName | eats | human readable description of interactions
  targetTaxonId |  EOL:1971 | taxon classification id of originating organisms 
  targetTaxonName | Echinoidea | scientific name of taxon classification of target organism of interaction
- localityId | geonames:5391961 gaz: | reference to geo classification like geonames.org, gazetteer or other.
+ localityId | geonames:5391961 | reference to geo classification like geonames.org, gazetteer or other.
  localityName | San Francisco Bay, California, USA | human readable description of locale
  decimalLatitude | -41.0983423 | latitude of geographic center of interaction observation location http://rs.tdwg.org/dwc/terms/index.htm#decimalLatitude
  decimalLongitude | -121.1761111 | longtide of geographic center of interaction observation location http://rs.tdwg.org/dwc/terms/index.htm#decimalLongitude
@@ -35,8 +35,8 @@ term | example | description |
  referenceDoi | doi:10.1126/science.200.4340.403 | Digital Object Id (DOI, http://doi.org) is commonly used to give papers, datasets or other digital object a permanent id
  referenceCitation| C. A. Simenstad, J. A. Estes, K. W. Kenyon, Aleuts, sea otters, and alternate stable-state communities, Science 200:403-411, from p. 404 (1978). | human readable reference 
 
-## Term ID Sources
-Rather than only supplying a name for a taxon and/or locality, a reference to some established taxonomy and/or geo database is preferred. Commonly used taxon id sources include, but are not limited to [GBIF](http://gbif.org), [EOL](http://eol.org)  [ITIS](http://itis.gov) and [WoRMS](http://marinespecies.org). Geo database or vocabularies include [geonames](http://geonames.org) and [Gazetteer Ontology](http://bioportal.bioontology.org/ontologies/GAZ).
+## Term Id Sources
+Rather than only supplying a name for a taxon and/or locality, a reference to some established taxonomy and/or geo database is preferred. Commonly used taxon id sources include, but are not limited to [GBIF](http://gbif.org), [EOL](http://eol.org),  [ITIS](http://itis.gov) and [WoRMS](http://marinespecies.org). Geo database or vocabularies include [geonames](http://geonames.org) and [Gazetteer Ontology](http://bioportal.bioontology.org/ontologies/GAZ).
  
 ## Interaction Id Cheatsheet
 
