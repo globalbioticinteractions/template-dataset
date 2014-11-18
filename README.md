@@ -1,6 +1,3 @@
-template-dataset
-================
-
 This repository provides an example on how to share your interaction data with Global Biotic Interactions (GloBI, http://globalbioticinteractions.org) .
 
 If you have comments or questions please [Open an issue](https://github.com/jhpoelen/eol-globi-data/issues/new).
