@@ -1,6 +1,6 @@
-This repository provides an example on how to share your interaction data with Global Biotic Interactions (GloBI, http://globalbioticinteractions.org) .
+This repository provides an example on how to make your interaction data available through Global Biotic Interactions (GloBI, http://globalbioticinteractions.org).
 
-If you have comments or questions please [Open an issue](https://github.com/jhpoelen/eol-globi-data/issues/new).
+If you have comments or questions please [open an issue](https://github.com/jhpoelen/eol-globi-data/issues/new).
 
 ## Share Your Interaction Data
 If you want to share your own data through GloBI:
