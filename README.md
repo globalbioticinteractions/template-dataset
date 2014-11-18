@@ -15,8 +15,8 @@ If you want to share your own data through GloBI:
 
 After you do this, the data will be available through GloBI within a day or so.
 
-## Data dictionary 
-This data dictionary is a suggestion on how to encode your interaction data in a human and machine friendly way. This is way each term has two columns: one for an id and another for a label. The former is to make the term machine readable, the latter to make is easy to read for humans. With both id and name present possible typos or other transcription errors can be detected with a (somewhat) straightforward algorithm.
+## Data Format and Dictionary
+The file [interactions.tsv](./interactions.tsv) is a suggestion on how to encode your interaction data using a tab separated file format (tsv) in combination with columns described below. This is a suggestion on how to encode your interaction data in a human and machine friendly way and keep it relatively doable to update the file using a basic text editor. Each term has two columns: one for an id and another for a label. The former is to make the term machine readable, the latter to make is easy to read for humans. With both id and name present possible typos or other transcription errors can be detected with a (somewhat) straightforward algorithm.
 
 
 term | example | description | 
@@ -27,7 +27,7 @@ term | example | description |
  interactionTypeName | eats | human readable description of interactions
  targetTaxonId |  EOL:1971 | taxon classification id of originating organisms 
  targetTaxonName | Echinoidea | scientific name of taxon classification of target organism of interaction
- localityId | geonames:5391961 | reference to geo classification like geonames.org, gazetteer or other.
+ localityId | GEONAMES:5391961 | reference to geo classification like geonames.org, gazetteer or other.
  localityName | San Francisco Bay, California, USA | human readable description of locale
  decimalLatitude | -41.0983423 | latitude of geographic center of interaction observation location http://rs.tdwg.org/dwc/terms/index.htm#decimalLatitude
  decimalLongitude | -121.1761111 | longtide of geographic center of interaction observation location http://rs.tdwg.org/dwc/terms/index.htm#decimalLongitude
