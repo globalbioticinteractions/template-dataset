@@ -9,6 +9,7 @@ If you want to share your own data through GloBI:
 2. Edit your ```README.rd``` to describe your data in a human readable form.
 3. Ensure that your README.rd contains a reference to ```http://globalbioticinteractions.org```.
 4. Edit your ```globi.json``` to provide a machine readable description of your dataset (e.g. citation, license, version, files, format).
+5. Edit the name of your repository and description to make it easy for others to understand what your data is about.
 
 After you do this, the data will be available through GloBI within a day or so.
 
