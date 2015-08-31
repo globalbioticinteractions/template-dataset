@@ -23,7 +23,7 @@ term | example | description |
 --- | --- | ---
  sourceTaxonId | EOL:328583 | taxon classification id of originating organism in some taxon name authority
  sourceTaxonName | Enhydra lutris  | scientific name of taxon classification of originating organism 
- interactionTypeId | RO:0002470 | id of interaction as described by the [OBO Relations Ontology](https://code.google.com/p/obo-relations/)
+ interactionTypeId | RO:0002470 | id of interaction as described by the [OBO Relations Ontology](https://github.com/oborel/obo-relations)
  interactionTypeName | eats | human readable description of interactions
  targetTaxonId |  EOL:1971 | taxon classification id of originating organisms 
  targetTaxonName | Echinoidea | scientific name of taxon classification of target organism of interaction
@@ -40,7 +40,7 @@ Rather than only supplying a name for a taxon and/or locality, a reference to so
  
 ## Interaction Id Cheatsheet
 
-For more terms, please see [OBO Relations Ontology](https://code.google.com/p/obo-relations/).
+For more terms, please see [OBO Relations Ontology](https://github.com/oborel/obo-relations).
  
 interactionTypeId | interactionTypeName 
 --- | ---
