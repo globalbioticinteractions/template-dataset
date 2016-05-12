@@ -1,5 +1,5 @@
 install:
-  - export GLOBI_VERSION=`curl -s https://api.github.com/repos/jhpoelen/eol-globi-data/releases/latest | grep -o '[0-9]\.[0-9]\.[0-9]' | uniq`
+  - export GLOBI_VERSION=`curl -s https://api.github.com/repos/jhpoelen/eol-globi-data/releases/latest | grep -o '[0-9]\.[0-9]\.[0-9]' | head -n 1`
   - wget http://globi.s3.amazonaws.com/release/org/eol/eol-globi-data-tool/$GLOBI_VERSION/eol-globi-data-tool-$GLOBI_VERSION-jar-with-dependencies.jar -O globi-tool.jar
 
 script: java -cp globi-tool.jar org.eol.globi.tool.GitHubRepoChecker $TRAVIS_REPO_SLUG $TRAVIS_BUILD_DIR
