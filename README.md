@@ -13,6 +13,23 @@ If you want to share your own data through GloBI:
 
 After you do this, the data will be available through GloBI within a day or so.
 
+## Enable Integration Testing
+You can use http://travis-ci.org to check whether your data can be read by GloBI. This helps you to confirm that the changes you make in your GloBI data repository are compatible with GloBIs data processing pipeline.
+
+To enable:
+
+1. make sure that the file ```.travis.yml``` is present in your repo. If not, copy the one available in https://github.com/globalbioticinteractions/template-dataset/blob/master/.travis.yml . 
+2. go to http://travis-ci.org and login using your github credentials
+3. locate your data repository in your account list
+4. enable your data repository for travis
+5. now, trigger your first build by making a change in your repository
+6. confirm that travis-ci.org picks up on your changes
+
+Now, whenever you make a change to data repository that is incompatible with GloBI, you receive a notification. If you'd like, you can include a build badge on your own html pages to see the health of your data. Here's an example of a build badge:  
+
+[![Build Status](https://travis-ci.org/globalbioticinteractions/template-dataset.png)](https://travis-ci.org/globalbioticinteractions/template-dataset)
+
+
 ## Data Format and Dictionary
 The file [interactions.tsv](./interactions.tsv) is a suggestion on how to encode your interaction data using a tab separated file format (tsv) in combination with columns described below. This provides an example on how to capture your data in a human and machine friendly way and keep it relatively doable to update the file using a basic text editor. Other formats are supported, just let us know about the syntax, and we'll make it work.
 
