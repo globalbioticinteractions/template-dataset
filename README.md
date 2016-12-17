@@ -22,7 +22,9 @@ To enable automated preserving and publishing your data:
 
 1. login/register with [zenodo](https://zenodo.org)
 2. enable automated preservation and publication of your dataset using instructions at  https://zenodo.org/account/settings/github/ or https://guides.github.com/activities/citable-code/
-3. reference/cite your dataset [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)s
+3. edit your zenodo publication and add it to zenodo's [Global Biotic Interactions community](https://zenodo.org/communities/globalbioticinteractions/). 
+
+For a completed example, see the publication of this template repository at [![DOI](https://zenodo.org/badge/26293374.svg)](https://zenodo.org/badge/latestdoi/26293374).
 
 ## Enable Integration Testing
 You can use http://travis-ci.org to check whether your data can be read by GloBI. This helps you to confirm that the changes you make in your GloBI data repository are compatible with GloBIs data processing pipeline.
