@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/globalbioticinteractions/template-dataset.png)](https://travis-ci.org/globalbioticinteractions/template-dataset) [![DOI](https://zenodo.org/badge/26293374.svg)](https://zenodo.org/badge/latestdoi/26293374) 
+
 This repository provides an example on how to make your interaction data available through Global Biotic Interactions (GloBI, http://globalbioticinteractions.org).
 
 If you have comments or questions please [open an issue](https://github.com/jhpoelen/eol-globi-data/issues/new).
@@ -12,6 +14,15 @@ If you want to share your own data through GloBI:
 5. Edit the name of your repository and description to make it easy for others to understand what your data is about.
 
 After you do this, the data will be available through GloBI within a day or so.
+
+## Enable Automated Preservation/Publication of your dataset
+Preserving and publishing your valuable data is now easier than ever. 
+
+To enable automated preserving and publishing your data:
+
+1. login/register with [zenodo](https://zenodo.org)
+2. enable automated preservation and publication of your dataset using info at https://zenodo.org/account/settings/github/
+3. reference/cite your dataset [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)s
 
 ## Enable Integration Testing
 You can use http://travis-ci.org to check whether your data can be read by GloBI. This helps you to confirm that the changes you make in your GloBI data repository are compatible with GloBIs data processing pipeline.
