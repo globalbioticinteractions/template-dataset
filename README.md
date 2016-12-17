@@ -21,7 +21,7 @@ Preserving and publishing your valuable data is now easier than ever.
 To enable automated preserving and publishing your data:
 
 1. login/register with [zenodo](https://zenodo.org)
-2. enable automated preservation and publication of your dataset using info at https://zenodo.org/account/settings/github/
+2. enable automated preservation and publication of your dataset using instructions at  https://zenodo.org/account/settings/github/ or https://guides.github.com/activities/citable-code/
 3. reference/cite your dataset [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)s
 
 ## Enable Integration Testing
