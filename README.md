@@ -15,7 +15,7 @@ If you want to share your own data through GloBI:
 
 After you do this, the data will be available through GloBI within a day or so.
 
-## Enable Automated Preservation/Publication of your dataset
+## Enable Automated Dataset Preservation/Publication
 Preserving and publishing your valuable data is now easier than ever. 
 
 To enable automated preserving and publishing your data:
