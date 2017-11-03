@@ -1,3 +1,4 @@
+sourceTaxonId	sourceTaxonName	interactionTypeId	interactionTypeName	targetTaxonId	targetTaxonName	localityId	localityName	decimalLatitude	decimalLongitude	observationDateTime	referenceDoi	referenceCitation
 ITIS:104419	Miridae Nymph	RO:0002622	visits flowers of	ITIS:516356	Lupinus nipomensis	GEONAMES:8105481	Phillips 66 Oil Refinery Mesa	35.038741	-120.579352	
 ITIS:104736	Closterocoris amoenus	RO:0002618	visits leaves of	ITIS:516356	Lupinus nipomensis	GEONAMES:8105481	Phillips 66 Oil Refinery Mesa	35.038741	-120.579352	2017-04
 ITIS:104736	Closterocoris amoenus	RO:0002622	visits flowers of	ITIS:516356	Lupinus nipomensis	GEONAMES:8105481	Phillips 66 Oil Refinery Mesa	35.038741	-120.579352	2017-04
