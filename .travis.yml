@@ -1,6 +1,7 @@
 install: 
   - wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh" -O check-dataset.sh
   - chmod +x check-dataset.sh
+  - wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/resolve-names.sh" -O resolve-names.sh
   - chmod +x resolve-names.sh
 
 script: ./resolve-names.sh ${TRAVIS_REPO_SLUG}
