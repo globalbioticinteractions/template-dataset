@@ -51,16 +51,22 @@ Each term has two columns: one for an id and another for a label. The former is 
 
 term | example | description | 
 --- | --- | ---
+ sourceOccurrenceId | 83742b5e-f0fd-4c12-a0af-c97191ea7722 | globally unique id to reference the individual originating organism, specimen. Inspired by http://rs.tdwg.org/dwc/terms/#occurrenceID .
  sourceTaxonId | EOL:328583 | taxon classification id of originating organism in some taxon name authority
  sourceTaxonName | Enhydra lutris  | scientific name of taxon classification of originating organism 
  sourceBodyPartId | http://purl.obolibrary.org/obo/UBERON_0000178 | identifier of description of source body part is interacted with
  sourceBodyPartName | blood | human readable description of source body part (e.g., "blood", "fruit")
+ sourceLifeStageId | http://purl.obolibrary.org/obo/UBERON_0007023 | identifier of description of source life stage
+ sourceLifeStageName | adult | human readable description of source life stage (e.g., "adult", "juvenile")
  interactionTypeId | RO:0002470 | id of interaction as described by the [OBO Relations Ontology](https://github.com/oborel/obo-relations)
  interactionTypeName | eats | human readable description of interactions
- targetTaxonId |  EOL:1971 | taxon classification id of originating organisms 
+ targetOccurrenceId | a5ee64b5-081b-4fff-8adc-2b0c74b1f40a | globally unique id to reference the individual target organism, specimen. Inspired by http://rs.tdwg.org/dwc/terms/#occurrenceID .
+ targetTaxonId |  EOL:1971 | taxon classification id of target organism. 
  targetTaxonName | Echinoidea | scientific name of taxon classification of target organism of interaction
  targetBodyPartId | http://purl.obolibrary.org/obo/UBERON_0000178 | identifier of description of target body part is interacted with
  targetBodyPartName | Echinoidea | human readable description of target body part (e.g., "blood")
+ targetLifeStageId | http://purl.obolibrary.org/obo/UBERON_0007023 | identifier of description of target life stage
+ targetLifeStageName | adult | human readable description of target life stage (e.g., "adult", "juvenile")
  localityId | GEONAMES:5391961 | reference to geo classification like geonames.org, gazetteer or other.
  localityName | San Francisco Bay, California, USA | human readable description of locale
  decimalLatitude | -41.0983423 | latitude of geographic center of interaction observation location http://rs.tdwg.org/dwc/terms/index.htm#decimalLatitude
