@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/globalbioticinteractions/template-dataset.svg)](https://travis-ci.org/globalbioticinteractions/template-dataset) [![DOI](https://zenodo.org/badge/26293374.svg)](https://zenodo.org/badge/latestdoi/26293374) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/template-dataset)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/template-dataset) 
 
-This repository provides an example on how to make your interaction data available through Global Biotic Interactions (GloBI, http://globalbioticinteractions.org).
+This repository provides an example on how to make your interaction data available through Global Biotic Interactions (GloBI, http://globalbioticinteractions.org) .
 
 If you have comments or questions please [open an issue](https://github.com/jhpoelen/eol-globi-data/issues/new).
 
