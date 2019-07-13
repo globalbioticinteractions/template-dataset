@@ -7,7 +7,7 @@ If you have comments or questions please [open an issue](https://github.com/jhpo
 ## Share Your Interaction Data
 If you want to share your own data through GloBI:
 
-1. Fork this repository. For some reason, GitHub does not allow for forking a repository more than once for a specific account. If you want multiple forks for your account, please see [create multi-forks](https://handong1587.github.io/linux_study/2015/12/18/create-multi-forks.html).
+1. Create a repository from this template dataset using https://github.com/globalbioticinteractions/template-dataset/generate . Alternatively, you can fork this template dataset, but GitHub does not allow for forking a repository more than once for a specific account. If you do want multiple forks for your account, please see [create multi-forks](https://handong1587.github.io/linux_study/2015/12/18/create-multi-forks.html).
 2. Edit your ```README.md``` to describe your data in a human readable form.
 3. Ensure that your README.rd contains a reference to ```http://globalbioticinteractions.org```.
 4. Edit your ```globi.json``` to provide a machine readable description of your dataset (e.g. citation, license, version, files, format).
