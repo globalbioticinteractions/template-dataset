@@ -1,3 +1,5 @@
+addons:
+  artifacts: true
 install:
 - wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh"
   -O check-dataset.sh
