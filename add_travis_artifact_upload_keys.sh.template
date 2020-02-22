@@ -1,0 +1,13 @@
+# 
+# To enable uploading reviews into a S3 compatible 
+# bucket, please use the travis-ci.org commandline 
+# tool, substitute the replace_me values and 
+# run the following to add the required 
+# environment variables to your travis configuration.
+#
+#
+
+travis encrypt ARTFACTS_KEY=replace_me_with_aws_key
+travis encrypt ARTFACTS_SECRET=replace_me_with_aws_secret
+travis encrypt ARTFACTS_BUCKET=replace_me_with_aws_bucket
+
