@@ -5,9 +5,9 @@
 # run the following to add the required 
 # environment variables to your travis configuration.
 #
-#
+# Also see https://github.com/globalbioticinteractions/globinizer
 
-travis encrypt ARTFACTS_KEY=replace_me_with_aws_key
-travis encrypt ARTFACTS_SECRET=replace_me_with_aws_secret
-travis encrypt ARTFACTS_BUCKET=replace_me_with_aws_bucket
+travis encrypt ARTIFACTS_KEY=replace_me_with_aws_key
+travis encrypt ARTIFACTS_SECRET=replace_me_with_aws_secret
+travis encrypt ARTIFACTS_BUCKET=replace_me_with_aws_bucket
 
