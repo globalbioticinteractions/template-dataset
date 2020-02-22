@@ -1,8 +1,15 @@
-install: 
-  - wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh" -O check-dataset.sh
-  - chmod +x check-dataset.sh
-  - wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/resolve-names.sh" -O resolve-names.sh
-  - chmod +x resolve-names.sh
-  - wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/create-taxon-cache-map.sh" -O create-taxon-cache-map.sh
-
-script: ./resolve-names.sh ${TRAVIS_REPO_SLUG}
+install:
+- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh"
+  -O check-dataset.sh
+- chmod +x check-dataset.sh
+- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/resolve-names.sh"
+  -O resolve-names.sh
+- chmod +x resolve-names.sh
+- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/create-taxon-cache-map.sh"
+  -O create-taxon-cache-map.sh
+script: "./resolve-names.sh ${TRAVIS_REPO_SLUG}"
+env:
+  global:
+  - secure: dFY+f0I3D6TwV9YEprzLT+sNmprubs2GG55RZU3czcFVmGt/KbDRLXkWeCaKIANuhTVnEtzrwC2oAJW346ccDFDVuL0D4P3gaiO+NV3w6XSi4z45oeU6eYqCbl6tMruIuQA5JKNbJDTX85J3TmDYHCV4Oh4NFRTyZpGS6OlOno8=
+  - secure: Dig+EqJr/eXf+u4TWKpqwRP97XyJcVLzQ7I17UPeKBvgkkplI3UZSapME2oMG0dwK2NvzMv4KBYuy4TG1juLd8Vl42f+zXiMuFsOVnByaoPv5ti5UJtlcdqE8apB/5KOENauRsaPW3F7jXrfDq/V5PY0Swr7j21F4vu2J13xKP0=
+  - secure: EoYcS7y3dTr1YgeYq7kfQ3/SmQI84I+s/X/YyQ4Uv9AvI4FvjsE5Tpxz8DrtNS93cXSY0EaRjnkhaxfwi1FMbhsKeWKDJxLtjmZoaiaanDVHDP1U4LozffgPDQ0BomVFPq8DICMDKTI0vbUMBTN0+KmFAyIEy+VfEH6TE8l/RvU=
