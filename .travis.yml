@@ -1,12 +1,16 @@
 install:
-- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh" -O check-dataset.sh
+- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh"
+  -O check-dataset.sh
 - chmod +x check-dataset.sh
-- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/resolve-names.sh" -O resolve-names.sh
+- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/resolve-names.sh"
+  -O resolve-names.sh
 - chmod +x resolve-names.sh
-- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/create-taxon-cache-map.sh" -O create-taxon-cache-map.sh
+- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/create-taxon-cache-map.sh"
+  -O create-taxon-cache-map.sh
 script: "./resolve-names.sh ${TRAVIS_REPO_SLUG}"
 env:
   global:
-  - secure: ZowcIZEK7xKoJ/GMLmhuJIztm6442KMlQBFoxEiBL9sX1fxp72gRk9bBTpKhfN4fK/lPhr+gukjkVykCNFFUZliRhOXZNPEdSsb9JUNoIvL9O7/4aW5onMOGrjvOYKaljgBdR1NMCYlLXKiQ6KQu9HkgTv74Lvc9QqzkYXEpdN8=
-  - secure: DO2ZjFrN2XuNIFoN4GjfdLkS8ZIh1sGL8KgWIZWjZjuoX1PIL18eS3tjSBL4XUcZyLaTTeBWCbHnRF6Z+/MqHwx/BL//tum+F13Lzv7CeSBsmV75TAWDvziAYMQDtmKqKjjS5vdlG6rNPxnuHTCzrGkUoEyacUrSmz1B7/+2L0A=
-  - secure: RUYrsxI2MAahG1UAx/JdNezEKcXUXEP6Qhur3Ki34UVid8Z6GfDduJwEewF4LsfI5zg1zlRjkDhoWYixF0nQ6D10KhVOWu3cyKVTD6Pnx1W8ZzulYQ9eA+zpwhEgGeGlb36ezy0QYbDuBNB38K2XRgbwqXYn1ugcV7wzgae16Mc=
+  - secure: IjgscXQcDBnBY3d1ehcVgEpgFwjIU3G/j6sfjklmTN2Ji2k5cF2qGrtkyonzNz8rJ0dVC03GbEnOAbk5XHP4EPQrEwoGS2i0VqPgvLlAvw9n1RYt05rdLgH3SJUEmr1OY4BJs8Wk0PndNXfdYEns7GtXrQOCqJJOXEFr4Nik2GQ=
+  - secure: Y4YfjFNsUB4WBAA51uxcQN8Fr1pj8Oh84O2VDbJxSTZoRhAhomXHtR8rF+8nIBSgBTXKgFYlnVkxP5IpajGhFrZjdtvMVsxtPsb2cNkukwaAlYE/iebIVGWiqAlIr7UA3LibY/hj3stCr9xI4iHHqwl0bftm6pk+VfIiidyeNGs=
+  - secure: GkjcuboxVvyn1JRvuHiL2JCU6CJ6lB3SAq/lGi8j2PtEQ/en/HBcwx5UmnMyZUT7jOKcqAW3Ykw5zhE6sqstrrpChfW88wB/L+BktEbNPsAIcc3An6xKCMaQSoRG+lbiHzEzGbSOyR88fRYQTmH9GNDeycRkjYJALJl5wX8CMRs=
+  - secure: NUfZDzp6oXceB4OfUSW3zfiAphOg2b7rFeE1G6xXnRxK5G60p12kI67mo81hCKEdH+69SJ4DlW0bonqUx3ZL03wei3e7qUeU+gglSWaFXSQh+L7l+OC9TXLt7LViHLslryLppHL03zLXvc+tNb07StA0nC0JW8NwkokoKCFjEK4=
