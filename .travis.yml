@@ -1,12 +1,11 @@
 install:
-- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh" -O check-dataset.sh
+- curl -L "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh"
+  > check-dataset.sh
 - chmod +x check-dataset.sh
-- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/resolve-names.sh" -O resolve-names.sh
-- chmod +x resolve-names.sh
-- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/create-taxon-cache-map.sh" -O create-taxon-cache-map.sh
-script: "./resolve-names.sh ${TRAVIS_REPO_SLUG}"
+script: "./check-dataset.sh ${TRAVIS_REPO_SLUG}"
 env:
   global:
-  - secure: ZowcIZEK7xKoJ/GMLmhuJIztm6442KMlQBFoxEiBL9sX1fxp72gRk9bBTpKhfN4fK/lPhr+gukjkVykCNFFUZliRhOXZNPEdSsb9JUNoIvL9O7/4aW5onMOGrjvOYKaljgBdR1NMCYlLXKiQ6KQu9HkgTv74Lvc9QqzkYXEpdN8=
-  - secure: DO2ZjFrN2XuNIFoN4GjfdLkS8ZIh1sGL8KgWIZWjZjuoX1PIL18eS3tjSBL4XUcZyLaTTeBWCbHnRF6Z+/MqHwx/BL//tum+F13Lzv7CeSBsmV75TAWDvziAYMQDtmKqKjjS5vdlG6rNPxnuHTCzrGkUoEyacUrSmz1B7/+2L0A=
-  - secure: RUYrsxI2MAahG1UAx/JdNezEKcXUXEP6Qhur3Ki34UVid8Z6GfDduJwEewF4LsfI5zg1zlRjkDhoWYixF0nQ6D10KhVOWu3cyKVTD6Pnx1W8ZzulYQ9eA+zpwhEgGeGlb36ezy0QYbDuBNB38K2XRgbwqXYn1ugcV7wzgae16Mc=
+  - secure: SYBIYNLOR3ItDgIb2uN5s+aj0r2FJJEF+LwtRbXbA9ahxjtqM9EsfVvHSqTvrJrl5ysZ0icIRe68K+fBLkzlULgtnT7MWj24iVPg1aOO9KIthaA2yTfk7I2GpGesxbCGmTNcHQUFL98uaDmv1Ok6gYteS2gMLyhPw4YxFinyWS4=
+  - secure: eOA6UgB4JGk/Dt8V3xmeq16VfcRymO8O5HIRP/f6N+2zJFRO6s/8If+qXf5fc02MPJ2rvD0yCUaFShrBWUAL6cgla9bSEPfLbeSaB2as+d14I0LbtAPLfIreHyEN5M7n8nzx1qWcSet+q2/z3PdGN/sk9xxpCmiDSkX19W6Za/Y=
+  - secure: FbHbabQAFnEh9G5ab9PYWu3K9J5P6TdkSliHC4Mki0ZF80NIKiQ0Skd6/glt71DuepxDVqdKK4SUDbD6ryH9iKs8gtr10OXuM+52DW6FJ7wrR17SZIACUk1xEewKrpkYYqV5FZI5d++z5hUmCNq5u9Cg7WuJoNsahUZcZqEp6Ag=
+  - secure: FdQnJXVcL+q9fYaF8823KZsqT+evG61micLCWJLRJx/pZaCG3e7TeiliDnoBVZ372qh1JP9nI5KnAuHVls/8pD70EM77OR9LS9yyGjphYLp7jCfkV+WYeR9P+kQRuog7goZ+AQtomQBQPWB85IArLlOPrx8G4ttfC7qbJK1skIg=
