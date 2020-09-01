@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/globalbioticinteractions/template-dataset.svg)](https://travis-ci.org/globalbioticinteractions/template-dataset) [![DOI](https://zenodo.org/badge/26293374.svg)](https://zenodo.org/badge/latestdoi/26293374) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/template-dataset)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/template-dataset) 
+[![Build Status](https://travis-ci.com/globalbioticinteractions/template-dataset.svg)](https://travis-ci.com/globalbioticinteractions/template-dataset) [![DOI](https://zenodo.org/badge/26293374.svg)](https://zenodo.org/badge/latestdoi/26293374) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/template-dataset)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/template-dataset) 
 
 This repository provides an example on how to make your interaction data available through Global Biotic Interactions (GloBI, http://globalbioticinteractions.org) .
 
@@ -27,20 +27,20 @@ To enable automated preserving and publishing your data:
 For a completed example, see the publication of this template repository at [![DOI](https://zenodo.org/badge/26293374.svg)](https://zenodo.org/badge/latestdoi/26293374).
 
 ## Enable Integration Testing
-You can use http://travis-ci.org to check whether your data can be read by GloBI. This helps you to confirm that the changes you make in your GloBI data repository are compatible with GloBIs data processing pipeline.
+You can use http://travis-ci.com to check whether your data can be read by GloBI. This helps you to confirm that the changes you make in your GloBI data repository are compatible with GloBIs data processing pipeline.
 
 To enable:
 
 1. make sure that the file ```.travis.yml``` is present in your repo. If not, copy the one available in https://github.com/globalbioticinteractions/template-dataset/blob/master/.travis.yml . 
-2. go to http://travis-ci.org and login using your github credentials
+2. go to http://travis-ci.com and login using your github credentials
 3. locate your data repository in your account list
 4. enable your data repository for travis
 5. now, trigger your first build by making a change in your repository
-6. confirm that travis-ci.org picks up on your changes
+6. confirm that travis-ci.com picks up on your changes
 
 Now, whenever you make a change to data repository that is incompatible with GloBI, you receive a notification. If you'd like, you can include a build badge on your own html pages to see the health of your data. Here's an example of a build badge:  
 
-[![Build Status](https://travis-ci.org/globalbioticinteractions/template-dataset.png)](https://travis-ci.org/globalbioticinteractions/template-dataset)
+[![Build Status](https://travis-ci.com/globalbioticinteractions/template-dataset.png)](https://travis-ci.com/globalbioticinteractions/template-dataset)
 
 
 ## Data Format and Dictionary
