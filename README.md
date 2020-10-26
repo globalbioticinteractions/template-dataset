@@ -15,6 +15,8 @@ If you want to your own data discoverable through GloBI:
 
 After you do this, the data will be available through GloBI within a day or so.
 
+If you don't feel comfortable being indexed by GloBI because your data isn't ready yet, or no longer up-to-date, you can set ```"deprecated": true``` in ```globi.json``` to unlist (or opt-out) the dataset to be indexed and made visible via https://globalbioticinteractions.org (see https://github.com/globalbioticinteractions/globalbioticinteractions/issues/372). 
+
 ## Enable Automated Dataset Preservation/Publication
 Preserving and publishing your valuable data is now easier than ever. 
 
