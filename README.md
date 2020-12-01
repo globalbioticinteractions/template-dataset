@@ -62,6 +62,8 @@ sourceOccurrenceId | 83742b5e-f0fd-4c12-a0af-c97191ea7722 | globally unique id t
  sourceBodyPartName | blood | human readable description of source body part (e.g., "blood", "fruit")
  sourceLifeStageId | http://purl.obolibrary.org/obo/UBERON_0007023 | identifier of description of source life stage
  sourceLifeStageName | adult | human readable description of source life stage (e.g., "adult", "juvenile")
+ sourcePhysiologicalStateId | http://purl.obolibrary.org/obo/PATO_0001422 | identifier of description of source physiological state
+ sourcePhysiologicalStateName | dead | human readable description of source physiological state (e.g., "dead", "rotten")
  interactionTypeId | RO:0002470 | id of interaction as described by the [OBO Relations Ontology](https://github.com/oborel/obo-relations)
  interactionTypeName | eats | human readable description of interactions
  targetOccurrenceId | a5ee64b5-081b-4fff-8adc-2b0c74b1f40a | globally unique id to reference the individual target organism, specimen. Inspired by http://rs.tdwg.org/dwc/terms/#occurrenceID .
@@ -71,6 +73,8 @@ sourceOccurrenceId | 83742b5e-f0fd-4c12-a0af-c97191ea7722 | globally unique id t
  targetBodyPartName | Echinoidea | human readable description of target body part (e.g., "blood")
  targetLifeStageId | http://purl.obolibrary.org/obo/UBERON_0007023 | identifier of description of target life stage
  targetLifeStageName | adult | human readable description of target life stage (e.g., "adult", "juvenile")
+ targetPhysiologicalStateId | http://purl.obolibrary.org/obo/PATO_0001422 | identifier of description of target's phyiological state
+ targetPhysiologicalStateName | dead | human readable description of target's physiological state (e.g., "dead", "rotten")
  localityId | GEONAMES:5391961 | reference to geo classification like geonames.org, gazetteer or other.
  localityName | San Francisco Bay, California, USA | human readable description of locale
  decimalLatitude | -41.0983423 | latitude of geographic center of interaction observation location http://rs.tdwg.org/dwc/terms/index.htm#decimalLatitude
