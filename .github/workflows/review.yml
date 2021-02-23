@@ -16,6 +16,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: download review script
-      run: curl -L "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh" > check-dataset.sh
+      run: curl --silent -L "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh" > check-dataset.sh
     - name: review dataset
       run: bash check-dataset.sh "${GITHUB_REPOSITORY}" 
