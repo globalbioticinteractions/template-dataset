@@ -75,6 +75,8 @@ sourceOccurrenceId | 83742b5e-f0fd-4c12-a0af-c97191ea7722 | globally unique id t
  targetLifeStageName | adult | human readable description of target life stage (e.g., "adult", "juvenile")
  targetPhysiologicalStateId | http://purl.obolibrary.org/obo/PATO_0001422 | identifier of description of target's phyiological state
  targetPhysiologicalStateName | dead | human readable description of target's physiological state (e.g., "dead", "rotten")
+ habitatId | ENVO:00000067 or http://purl.obolibrary.org/obo/ENVO_00000067 | reference to a habitat classification like Environmental Ontology (http://environmentontology.org/), Coastal and Marine Classification Standards (CMECS, https://iocm.noaa.gov/standards/cmecs-home.html).
+ habitatName | cave | human readable description of habitat
  localityId | GEONAMES:5391961 | reference to geo classification like geonames.org, gazetteer or other.
  localityName | San Francisco Bay, California, USA | human readable description of locale
  decimalLatitude | -41.0983423 | latitude of geographic center of interaction observation location http://rs.tdwg.org/dwc/terms/index.htm#decimalLatitude
