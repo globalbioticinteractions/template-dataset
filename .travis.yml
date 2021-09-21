@@ -3,8 +3,3 @@ install:
   > check-dataset.sh
 - chmod +x check-dataset.sh
 script: "./check-dataset.sh ${TRAVIS_REPO_SLUG}"
-env:
-  global:
-  - secure: kYOOjGlGBsPSzC5bsF6807KwXFgXC5JchP8RjBJsdvXguypIVHq4bVNgtxeC69cLQRwgtGdum5Km9Rm7qvS/5TFQlHAkp85PtfJWUA8WwRnuKCssXZPINDj0Y3aSBETMIx3cufv0Gbxq6kWxVCNcFMrPaASVfElLrq4H2ohMflE=
-  - secure: eehft2O2Ip77F7dS6ik097vti9peCy0ndUDu1aADuV0eZy9Csv73A9Tz1P3lPTN+6UEhif8lYVWrAUsnM5EhiK8o2z+3GmCM/fTHpI4U3tisYc9nvI8jLiCcjJOMyPYg9vZ8GNnwXzfAUwzVmrNKOqT3S65ckUOsvytbhgNBR2A=
-  - secure: SWJrYij7wyEXGRxToFGiZbr9grH2vVJSZ6BYngmPOb0qMpZKzKypWd7raak2326etV5TDnZPAm/oMvxJEHEQ5aVzPtzH+n1C2Q7uYhBfFEBeujo73g1SWsisoHbWwFvbquHlx2CQkQYOps5jnPtkEQXUKT0F762Nj76Q9+hAQMo=
