@@ -8,7 +8,7 @@ If you have comments or questions please [open an issue](https://github.com/glob
 If you want to make your own data discoverable through GloBI:
 
 1. Create a repository from this template dataset by visiting  https://github.com/globalbioticinteractions/template-dataset/generate or clicking the "use this template" button.
-2. Edit your ```README.md``` to describe your data in a human readable form.
+2. Edit your ```README.md``` and describe your data in a human readable form.
 3. Ensure that your README.md contains a reference to ```http://globalbioticinteractions.org```.
 4. Edit your ```globi.json``` to provide a machine readable description of your dataset (e.g. citation, license, version, files, format).
 5. Edit the name of your repository and description to make it easy for others to understand what your data is about.
