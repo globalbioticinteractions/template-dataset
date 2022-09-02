@@ -57,7 +57,15 @@ argumentTypeId | https://en.wiktionary.org/wiki/refute | a URI that points to a 
  argumentTypeName | refute | a human readable name that qualifies whether the record is in support or refutes of a particular interaction
 sourceOccurrenceId | 83742b5e-f0fd-4c12-a0af-c97191ea7722 | globally unique id to reference the individual originating organism, specimen. Inspired by http://rs.tdwg.org/dwc/terms/#occurrenceID .
  sourceTaxonId | EOL:328583 | taxon classification id of originating organism in some taxon name authority
- sourceTaxonName | Enhydra lutris  | scientific name of taxon classification of originating organism 
+ sourceTaxonName | Enhydra lutris | scientific name of taxon classification of originating organism 
+ sourceTaxonKingdomName | Animalia | name of kingdom of taxon classification of originating organism 
+ sourceTaxonPhylumName | Chordata | name of phylum of taxon classification of originating organism 
+ sourceTaxonClassName | Gastropoda | name of class of taxon classification of originating organism 
+ sourceTaxonOrderName | Carnivora | name of order of taxon classification of originating organism 
+ sourceTaxonFamilyName | Mustelidae | name of family of taxon classification of originating organism 
+ sourceTaxonGenusName | Enhydra | name of genus of taxon classification of originating organism 
+ sourceTaxonSpecificEpithetName | lutris | name of specific epithet of taxon classification of originating organism 
+ sourceTaxonSubspecificEpithetName | nereis | name of subspecific epithet of taxon classification of originating organism 
  sourceBodyPartId | http://purl.obolibrary.org/obo/UBERON_0000178 | identifier of description of source body part is interacted with
  sourceBodyPartName | blood | human readable description of source body part (e.g., "blood", "fruit")
  sourceLifeStageId | http://purl.obolibrary.org/obo/UBERON_0007023 | identifier of description of source life stage
@@ -69,6 +77,14 @@ sourceOccurrenceId | 83742b5e-f0fd-4c12-a0af-c97191ea7722 | globally unique id t
  targetOccurrenceId | a5ee64b5-081b-4fff-8adc-2b0c74b1f40a | globally unique id to reference the individual target organism, specimen. Inspired by http://rs.tdwg.org/dwc/terms/#occurrenceID .
  targetTaxonId |  EOL:1971 | taxon classification id of target organism. 
  targetTaxonName | Echinoidea | scientific name of taxon classification of target organism of interaction
+ targetTaxonKingdomName | Animalia | name of kingdom of taxon classification of target organism of interaction
+ targetTaxonPhylumName | Chordata | name of phylum of taxon classification of target organism of interaction
+ targetTaxonClassName | Gastropoda | name of class of taxon classification of target organism of interaction
+ targetTaxonOrderName | Carnivora | name of order of taxon classification of target organism of interaction
+ targetTaxonFamilyName | Mustelidae | name of family of taxon classification of target organism of interaction
+ targetTaxonGenusName | Enhydra | name of genus of taxon classification of target organism of interaction
+ targetTaxonSpecificEpithetName | lutris | name of specific epithet of taxon classification of target organism of interaction
+ targetTaxonSubSpecificEpithetName | nereis | name of subspecific epithet of taxon classification of target organism of interaction
  targetBodyPartId | http://purl.obolibrary.org/obo/UBERON_0000178 | identifier of description of target body part is interacted with
  targetBodyPartName | Echinoidea | human readable description of target body part (e.g., "blood")
  targetLifeStageId | http://purl.obolibrary.org/obo/UBERON_0007023 | identifier of description of target life stage
