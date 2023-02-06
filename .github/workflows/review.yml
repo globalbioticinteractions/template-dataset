@@ -12,7 +12,7 @@ on:
     - cron: "0 0 * * 1"
 
 jobs:
-  build:
+  review:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
