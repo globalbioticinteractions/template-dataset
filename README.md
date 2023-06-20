@@ -29,21 +29,20 @@ To enable automated preserving and publishing your data:
 For a completed example, see the publication of this template repository at [![DOI](https://zenodo.org/badge/26293374.svg)](https://zenodo.org/badge/latestdoi/26293374).
 
 ## Enable Integration Testing
-You can use http://travis-ci.com to check whether your data can be read by GloBI. This helps you to confirm that the changes you make in your GloBI data repository are compatible with GloBIs data processing pipeline.
+Integration testing, also known as "GloBI review by Elton", is currently supported through GitHub actions, and is enable automatically. If you'd like to learn more about GitHub actions in general, please see https://github.com/features/actions . For reviewing the review script, please see [./.github/workflows/review.yml](./.github/workflows/review.yml). You'll find that most of the review logic is captured in [https://github.com/globalbioticinteractions/globinizer/blob/master/check-dataset.sh](https://github.com/globalbioticinteractions/globinizer/blob/master/check-dataset.sh) . If you have remaining questions about the review process, please [open an issue](https://github.com/globalbioticinteractions/globalbioticinteractions/issues) or contact folks [by email](https://globalbioticinteractions.org/contribute). There's plenty of ways to review species interaction datasets, and your questions, ideas and suggestions help to find more intuitive ways to do so. Thank in advance for sharing your ideas!  
 
-To enable:
+By the way, on a successful review, you should see a badget similar to the one below: 
 
-1. make sure that the file ```.travis.yml``` is present in your repo. If not, copy the one available in https://github.com/globalbioticinteractions/template-dataset/blob/master/.travis.yml . 
-2. go to http://travis-ci.com and login using your github credentials
-3. locate your data repository in your account list
-4. enable your data repository for travis
-5. now, trigger your first build by making a change in your repository
-6. confirm that travis-ci.com picks up on your changes
 
-Now, whenever you make a change to data repository that is incompatible with GloBI, you receive a notification. If you'd like, you can include a build badge on your own html pages to see the health of your data. Here's an example of a build badge:  
+Now, whenever you make a change to data repository that is incompatible with GloBI, you receive a notification. If you'd like, you can include a build badge on your own html pages to see the health of your data. Here's an example of a "green" review badge:  
 
-[![Build Status](https://travis-ci.com/globalbioticinteractions/template-dataset.png)](https://travis-ci.com/globalbioticinteractions/template-dataset)
+![image](https://github.com/globalbioticinteractions/template-dataset/assets/1084872/776dbabc-c99e-4d8c-86bb-2dc07bc2a155)
 
+However, if you see a "red" review badge like:
+
+![image](https://github.com/globalbioticinteractions/template-dataset/assets/1084872/155cfe55-94a4-4dfa-84e1-d8ea68657161)
+
+please check your review logs, or ask questions if you'd like to have some guidance on how to access or interpret the review reports. 
 
 ## Data Format and Dictionary
 The file [interactions.tsv](./interactions.tsv) is a suggestion on how to encode your interaction data using a tab separated file format (tsv) in combination with columns described below. This provides an example on how to capture your data in a human and machine friendly way and keep it relatively doable to update the file using a basic text editor. Other formats are supported, just let us know about the syntax, and we'll make it work.
