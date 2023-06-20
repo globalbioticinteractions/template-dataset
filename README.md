@@ -29,7 +29,11 @@ To enable automated preserving and publishing your data:
 For a completed example, see the publication of this template repository at [![DOI](https://zenodo.org/badge/26293374.svg)](https://zenodo.org/badge/latestdoi/26293374).
 
 ## Enable Integration Testing
-Integration testing, also known as "GloBI review by Elton", is currently supported through GitHub actions, and is enable automatically. If you'd like to learn more about GitHub actions in general, please see https://github.com/features/actions . For reviewing the review script, please see [./.github/workflows/review.yml](./.github/workflows/review.yml). You'll find that most of the review logic is captured in [https://github.com/globalbioticinteractions/globinizer/blob/master/check-dataset.sh](https://github.com/globalbioticinteractions/globinizer/blob/master/check-dataset.sh) . If you have remaining questions about the review process, please [open an issue](https://github.com/globalbioticinteractions/globalbioticinteractions/issues) or contact folks [by email](https://globalbioticinteractions.org/contribute). There's plenty of ways to review species interaction datasets, and your questions, ideas and suggestions help to find more intuitive ways to do so. Thank in advance for sharing your ideas!  
+Integration testing, also known as "GloBI review by Elton", is currently supported through GitHub actions, and is enable automatically. 
+
+If you'd like to learn more about GitHub actions in general, please see https://github.com/features/actions . For reviewing the review script, please see [./.github/workflows/review.yml](./.github/workflows/review.yml). You'll find that most of the review logic is captured in [https://github.com/globalbioticinteractions/globinizer/blob/master/check-dataset.sh](https://github.com/globalbioticinteractions/globinizer/blob/master/check-dataset.sh) . 
+
+For any remaining questions about the review process, please [open an issue](https://github.com/globalbioticinteractions/globalbioticinteractions/issues) or contact folks [by email](https://globalbioticinteractions.org/contribute). There's plenty of ways to review species interaction datasets, and your questions, ideas and suggestions help to find more intuitive ways to do so. Thank in advance for sharing your ideas!  
 
 By the way, on a successful review, you should see a badget similar to the one below: 
 
