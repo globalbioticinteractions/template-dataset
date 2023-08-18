@@ -32,5 +32,6 @@ jobs:
         path: |
           README.txt
           datasets/ 
+          index.*
           indexed-* 
           review* 
