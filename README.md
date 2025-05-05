@@ -2,7 +2,7 @@
 
 This repository provides an example on how to make your interaction data available through Global Biotic Interactions (GloBI, http://globalbioticinteractions.org).
 
-If you have comments or questions please [open an issue](https://github.com/globalbioticinteractions/globalbioticinteractions/issues/new).
+If you have comments or questions please [open an issue](https://github.com/globalbioticinteractions/globalbioticinteractions/issues/new). Thank you!
 
 ## Share Your Interaction Data
 If you want to make your own data discoverable through GloBI:
