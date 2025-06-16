@@ -39,3 +39,4 @@ jobs:
           index.*
           indexed-* 
           review* 
+          zenodo* 
